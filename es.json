@@ -53,7 +53,7 @@
 			"option-tab-size-description": "Número de espacios a los que equivale una tabulación.",
 			"option-line-wrap": "Ajustar la línea",
 			"option-line-wrap-description": "Ajusta las líneas largas para que no tengas que desplazar de derecha a izquierda.",
-			"option-rtl": "Right-to-left (RTL)",
+			"option-rtl": "Derecha a izquierda (RTL)",
 			"option-rtl-description": "Establece la dirección del texto de las notas para que se muestren de derecha a izquierda.",
 			"option-auto-convert-html": "Conversión automática de HTML",
 			"option-auto-convert-html-description": "Convierte automáticamente HTML a Markdown al pegar y arrastrar y soltar desde páginas web. Use Ctrl/Cmd+Shift+V para pegar sin convertir.",
@@ -77,9 +77,9 @@
 			"label-legacy-deprecation-1": "Obsidian now has a brand new editor that's more robust and accessible.",
 			"label-legacy-deprecation-2": "It seems you're still using the legacy editor, and we think you'll enjoy the new editor.",
 			"label-legacy-deprecation-choice": "Which mode would you like to use?",
-			"label-live-preview-description": "A more modern, what-you-see-is-what-you-get experience.",
-			"label-source-mode-description": "See raw Markdown with syntax highlighting.",
-			"button-start-new-editor": "Start new editor"
+			"label-live-preview-description": "Una experiencia más moderna que te permite ver el resultado final constantemente.",
+			"label-source-mode-description": "Ver markdown puro con la sintaxis marcada.",
+			"button-start-new-editor": "Iniciar nuevo editor"
 		},
 		"file": {
 			"name": "Archivos y enlaces",
@@ -121,7 +121,7 @@
 			"label-no-excluded-filters-applied": "No se está aplicando ningún filtro de exclusión. Añada uno debajo.",
 			"label-excluded-filters-applied": "Los archivos que cumplen los siguientes filtros están actualmente excluídos:",
 			"label-excluded-filter": "Filtrar",
-			"placeholder-excluded-filter": "Enter path or \"/regex/\"..."
+			"placeholder-excluded-filter": "Introducir ruta o \"/regex/\"..."
 		},
 		"appearance": {
 			"name": "Apariencia",
@@ -182,9 +182,9 @@
 			"label-waiting-for-hotkey-press": "Presionar teclas...",
 			"tooltip-restore-default": "Restaurar los valores por defecto",
 			"tooltip-customize-command": "Modificar este comando",
-			"tooltip-hotkey-single-conflict": "Éste atajo está en conflicto con \"{{command}}\"",
-			"tooltip-hotkey-multiple-conflicts": "Éste atajo está en conflicto con otros {{count}} comandos",
-			"label-blank-hotkey": "Blank"
+			"tooltip-hotkey-single-conflict": "Este atajo está en conflicto con \"{{command}}\"",
+			"tooltip-hotkey-multiple-conflicts": "Este atajo está en conflicto con otros {{count}} comandos",
+			"label-blank-hotkey": "En blanco"
 		},
 		"about": {
 			"name": "Acerca de",
@@ -248,12 +248,12 @@
 			"button-purchase": "Comprar",
 			"button-log-out": "Salir",
 			"label-log-in": "Entrar",
-			"label-sign-up": "Sign up",
+			"label-sign-up": "Registrarse",
 			"label-email": "Email",
 			"placeholder-email": "Su email...",
 			"label-password": "Constraseña",
 			"placeholder-password": "Su contraseña...",
-			"button-login": "Login",
+			"button-login": "Iniciar sesión",
 			"message-empty-email": "Email no puede estar vacío.",
 			"message-invalid-email": "Email no es válido.",
 			"message-empty-password": "Contraseña no puede estar vacía.",
@@ -269,13 +269,13 @@
 		},
 		"third-party-plugin": {
 			"name": "Plugins externos",
-			"option-restricted-mode": "Restricted mode",
-			"option-restricted-mode-description": "Restricted Mode is off. Turn on to disable community plugins.",
-			"button-turn-on": "Turn on",
+			"option-restricted-mode": "Modo restringido",
+			"option-restricted-mode-description": "El modo restringido está desactivado. Actívalo para usar plugins de la comunidad.",
+			"button-turn-on": "Activar",
 			"option-browse-community-plugins": "Plugins creados por la comunidad",
 			"option-browse-community-plugins-description": "Busca e instala plugins hechos por nuestra comunidad",
 			"button-browse": "Buscar",
-			"label-exit-restricted-mode": "Exit Restricted Mode",
+			"label-exit-restricted-mode": "Salir del modo restringido",
 			"label-exit-restricted-mode-description-1": "Community plugins, like any other software you install, could potentially cause data integrity and security issues.",
 			"label-exit-restricted-mode-description-2": "Plugin security is important to us. Here's what we do:",
 			"label-exit-restricted-mode-description-3": "Despite our efforts, there is still a small chance that a community plugin might misbehave.",
@@ -380,7 +380,7 @@
 			"option-added-options": "Added options",
 			"option-more-toolbar-options": "More toolbar options",
 			"option-attach": "Insertar archivo adjunto",
-			"option-add-command": "Add global command",
+			"option-add-command": "Añadir comando global",
 			"option-add-command-description": "Select any global command to add to the toolbar."
 		}
 	},
@@ -409,8 +409,8 @@
 			"add-to-dictionary": "Añadir al diccionario"
 		},
 		"heading-suggestion": {
-			"label-no-heading": "No heading",
-			"label-heading-level": "Heading {{level}}"
+			"label-no-heading": "Sin encabezado",
+			"label-heading-level": "Encabezado {{level}}"
 		},
 		"print-modal": {
 			"title": "Exportar a PDF",
@@ -502,12 +502,12 @@
 			"copy": "Copiar",
 			"cut": "Cortar",
 			"paste": "Pegar",
-			"paste-as-plain-text": "Paste as plain text",
+			"paste-as-plain-text": "Pegar como texto simple",
 			"select-all": "Seleccionar todo",
-			"rename-heading": "Rename this heading...",
+			"rename-heading": "Renombrar encabezado...",
 			"rename-blockid": "Rename this block ID...",
-			"open-in-new-window": "Open in new window",
-			"move-to-new-window": "Move to new window"
+			"open-in-new-window": "Abrir en ventana nueva",
+			"move-to-new-window": "Mover a ventana nueva"
 		},
 		"tooltip": {
 			"click-to-expand": "Click para expandir",
@@ -529,7 +529,7 @@
 			"option-new-vault-location-description": "Pick a place to put your new vault.",
 			"label-new-vault-location-preview": "Your new vault will be placed in: ",
 			"option-reveal-vault-in-explorer": "Reveal vault in system explorer",
-			"option-rename-vault": "Rename vault...",
+			"option-rename-vault": "Renombrar bóveda...",
 			"msg-error-rename-exists": "There is already a vault with this name.",
 			"msg-error-nested": "Cannot move vault into a subfolder of itself.",
 			"msg-error-rename-open": "Can't rename a currently open vault.",
@@ -547,19 +547,19 @@
 			"button-browse": "Browse",
 			"button-connect": "Conectar",
 			"button-create-vault": "Crear",
-			"button-back": "Back",
+			"button-back": "Atrás",
 			"msg-empty-vault-name": "Vault name cannot be empty.",
 			"msg-invalid-folder": "Please pick a valid folder.",
 			"msg-failed-to-create-vault": "Failed to create vault.",
 			"msg-failed-to-create-vault-at-location": "Could not create vault at the given location. Please double check the location and permission.",
 			"msg-error-failed-to-open-vault": "Failed to open.",
 			"msg-error-remove-current-open-vault": "Can't remove a currently open vault.",
-			"option-get-help": "Get Help",
+			"option-get-help": "Obtener ayuda",
 			"option-user-email": "Email",
 			"placeholder-your-email": "Su email...",
 			"option-user-password": "Contraseña",
 			"placeholder-your-password": "Su Contraseña...",
-			"button-sign-in": "Sign in",
+			"button-sign-in": "Iniciar sesión",
 			"button-setup": "Configurar",
 			"option-connect-vault-desc": "Create a synced vault on this device.",
 			"tooltip-own-vault": "This is a remote vault owned by you.",
@@ -576,37 +576,37 @@
 		"window": {
 			"maximize": "Maximizar",
 			"minimize": "Minimizar",
-			"restore-down": "Restore down",
-			"close-window": "Close window",
-			"go-back": "Go back",
-			"go-forward": "Go forward"
+			"restore-down": "Restaurar",
+			"close-window": "Cerrar ventana",
+			"go-back": "Retroceder",
+			"go-forward": "Avanzar"
 		},
 		"start-up": {
-			"loading-obsidian": "Loading Obsidian...",
+			"loading-obsidian": "Cargando Obsidian...",
 			"obsidian-load-error": "An error occurred while loading Obsidian.",
-			"button-reload-app": "Reload app",
-			"button-reload-app-in-safe-mode": "Reload app in safe mode",
-			"button-open-another-vault": "Open another vault",
-			"loading-components": "Loading components...",
-			"loading-plugins": "Loading plugins...",
-			"loading-vault": "Loading vault...",
+			"button-reload-app": "Recargar aplicación",
+			"button-reload-app-in-safe-mode": "Recargar aplicación en modo seguro",
+			"button-open-another-vault": "Abrir otra bóveda",
+			"loading-components": "Cargando componentes...",
+			"loading-plugins": "Cargando plugins...",
+			"loading-vault": "Cargando bóveda...",
 			"msg-failed-to-load-vault": "Failed to load vault: ",
-			"loading-cache": "Loading cache...",
-			"loading-workspace": "Loading workspace..."
+			"loading-cache": "Cargando caché...",
+			"loading-workspace": "Cargando espacio de trabajo..."
 		},
 		"mobile": {
-			"action-import": "Import into vault",
+			"action-import": "Importar a bóveda",
 			"action-choose-file-to-insert": "Choose a file to insert",
 			"action-insert-text-into-file": "Insert text into {{filename}}",
 			"action-insert-link-into-file": "Insert link into {{filename}}",
-			"msg-importing": "Importing...",
+			"msg-importing": "Importando...",
 			"msg-import-success": "Import success",
 			"msg-failed-to-import-file": "Failed to import file {{filename}}"
 		},
 		"help-screen": {
 			"label-official-help-site": "Official help site",
 			"label-official-help-site-desc": "Read the official help documentation of Obsidian, available in multiple languages.",
-			"action-visit": "Visit",
+			"action-visit": "Visitar",
 			"label-discord-chat": "Discord chat",
 			"label-discord-chat-desc": "Discord is the best place to chat with other experienced Obsidian users from around the world.",
 			"action-join": "Join",
@@ -655,14 +655,14 @@
 		"toggle-comments": "Alternar comentarios para selección",
 		"insert-link": "Insertar enlace",
 		"toggle-spellcheck": "Alternar corrector ortográfico",
-		"delete-paragraph": "Eliminar paragrafo",
+		"delete-paragraph": "Eliminar párrafo",
 		"toggle-checklist": "Toggle checkbox status",
 		"cycle-list-checklist": "Cycle bullet/checkbox",
 		"insert-callout": "Insert callout",
 		"edit-file-title": "Editar nombre del archivo",
 		"copy-path": "Copiar ruta del archivo",
 		"copy-url": "Copy obsidian url",
-		"export-pdf": "Export to PDF",
+		"export-pdf": "Exportar a PDF",
 		"reload": "Reload app without saving",
 		"undo-close-pane": "Undo close pane",
 		"context-menu": "Show context menu under cursor",
@@ -702,7 +702,7 @@
 		"label-rename-blockid": "Rename block ID"
 	},
 	"menu-items": {
-		"new-file": "Create Note",
+		"new-file": "Crear nota",
 		"new-file-in-new-pane": "Create Note in Split",
 		"open-switcher": "Open Quickly...",
 		"open-vault": "Open Vault...",
@@ -830,9 +830,9 @@
 			"menu-opt-search-for": "Search for \"{{keyword}}\""
 		},
 		"quick-switcher": {
-			"name": "Quick switcher",
+			"name": "Alternador rápido",
 			"desc": "Salta a cualquier archivo sin dejar tu teclado. Ctrl/Cmd+O para activar.",
-			"short-name": "Switcher",
+			"short-name": "Alternador",
 			"action-open": "Abrir quick switcher",
 			"instruction-navigate": "para navegar",
 			"instruction-open": "para abrir",
@@ -898,7 +898,7 @@
 			"button-animate-timelapse": "Animate"
 		},
 		"backlinks": {
-			"name": "Backlinks",
+			"name": "Referencias a esto",
 			"desc": "Muestre el número de backlinks en la barra de estatus.",
 			"action-open": "Abrir backlinks",
 			"action-show": "Show backlinks pane",
@@ -916,7 +916,7 @@
 			"option-backlink-in-document-desc": "Show backlinks in document by default when opening new panes."
 		},
 		"outgoing-links": {
-			"name": "Outgoing Links",
+			"name": "Referencias a otras notas",
 			"desc": "Show outgoing links and detect unlinked mentions of other notes in the current note.",
 			"action-open": "Open outgoing links",
 			"action-show": "Show outgoing links pane",
